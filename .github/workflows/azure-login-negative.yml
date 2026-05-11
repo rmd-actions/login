@@ -19,12 +19,12 @@ jobs:
     steps:
 
     - name: 'Checking out repo code'
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
-    - name: Set Node.js 20.x for GitHub Action
-      uses: actions/setup-node@v4
+    - name: Set Node.js 24.x for GitHub Action
+      uses: actions/setup-node@v6
       with:
-        node-version: 20.x
+        node-version: 24.x
 
     - name: 'Validate build'
       run: |
@@ -82,12 +82,12 @@ jobs:
 
     steps:
     - name: 'Checking out repo code'
-      uses: actions/checkout@v4
+      uses: actions/checkout@v6
 
-    - name: Set Node.js 20.x for GitHub Action
-      uses: actions/setup-node@v4
+    - name: Set Node.js 24.x for GitHub Action
+      uses: actions/setup-node@v6
       with:
-        node-version: 20.x
+        node-version: 24.x
 
     - name: 'Validate build'
       run: |
